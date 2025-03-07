@@ -1,0 +1,42 @@
+{
+    "name": "agentai",
+    "version": "0.1.0",
+    "description": "A JavaScript client for the Agent.ai API",
+    "main": "lib/index.js",
+    "files": [
+      "lib"
+    ],
+    "scripts": {
+      "build": "babel src --out-dir lib",
+      "lint": "eslint src",
+      "test": "jest",
+      "prepublishOnly": "npm run build"
+    },
+    "keywords": [
+      "agent.ai",
+      "api",
+      "client",
+      "ai",
+      "llm"
+    ],
+    "author": "Andrei Oprisan <andrei@agent.ai>",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/OnStartups/js_sdk"
+    },
+    "homepage": "https://agent.ai/actions",
+    "dependencies": {
+      "axios": "^1.6.2"
+    },
+    "devDependencies": {
+      "@babel/cli": "^7.21.0",
+      "@babel/core": "^7.21.0",
+      "@babel/preset-env": "^7.21.0",
+      "eslint": "^8.54.0",
+      "jest": "^29.7.0"
+    },
+    "engines": {
+      "node": ">=14.0.0"
+    }
+  }

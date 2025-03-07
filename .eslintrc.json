@@ -1,0 +1,18 @@
+{
+    "root": true,
+    "extends": [
+      "eslint:recommended"
+    ],
+    "rules": {
+      "no-console": "warn"
+    },
+    "env": {
+      "node": true,
+      "jest": true,
+      "es2020": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 2020,
+      "sourceType": "module"
+    }
+}
